@@ -9,27 +9,27 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.7.0/modern-normalize.min.css">
         <link rel="stylesheet" href="./css/styles.css">
 </head>
-<body>
+<body class="page">
         <!--Шапка  сайта-->
-        <header class="page-header">
-                <div class="container main-nav">
-                                <a  href="index.html" class="site-logo">
-                                        <span>Web</span>Studio
+        <header class="header">
+                <div class="container nav nav--space-between">
+                                <a  href="index.html" class="logo header__logo logo--dark">
+                                        <span class="logo__text">Web</span>Studio
                                 </a>
                         <nav class="nav">
-                                <ul class="nav-list">
-                                        <li class="nav-list-item">
-                                                <a  href="index.html" class="nav-list-link studio">Студия</a>
+                                <ul class="nav-list nav--space-between">
+                                        <li class="nav-list__item">
+                                                <a  href="index.html" class="nav-list__link studio">Студия</a>
                                         </li>
-                                        <li class="nav-list-item">
-                                                <a  href="portfolio.html" class="nav-list-link">Портфолио</a>
+                                        <li class="nav-list__item">
+                                                <a  href="portfolio.html" class="nav-list__link">Портфолио</a>
                                         </li>
-                                        <li class="nav-list-item">
-                                                <a  href="" class="nav-list-link">Контакты</a>
+                                        <li class="nav-list__item">
+                                                <a  href="" class="nav-list__link">Контакты</a>
                                         </li>
                                 </ul>
                         </nav>
-        
+                 <!-- тут закінчив, передивитися класи з флексами, і ще раз проти навігацію -->
                         <ul class="nav-contacts">
                                 <li class="nav-contacts-item">
                                         <a  href="mailto:info@devstudio.com" class="nav-contacts-link">
@@ -323,11 +323,11 @@
             </section>
     </main>
         <!--футер-->
-        <footer class="page-footer">
+        <footer class="footer">
                 <div class="container">
                    <div class="footer-contacts">
-                        <a href="./index.html" class="site-logo">
-                                <span>Web</span>Studio
+                        <a href="./index.html" class="logo footer__logo logo--white">
+                                <span class="logo__text">Web</span>Studio
                         </a>
                         <address class="address">
                                                 г. Киев, пр-т Леси Украинки, 26
