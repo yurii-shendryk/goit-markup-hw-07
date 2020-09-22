@@ -12,50 +12,50 @@
 <body>
         <!--Шапка  сайта-->
         <header class="page-header">
-            <div class="container main-nav">
-                            <a  href="index.html" class="site-logo">
-                                    <span>Web</span>Studio
+            <div class="container page-header__container">
+                            <a  href="index.html" class="logo page-header__logo logo--dark">
+                                    <span class="logo__label">Web</span>Studio
                             </a>
-                    <nav class="nav">
-                            <ul class="nav-list">
-                                    <li class="nav-list-item">
-                                            <a  href="index.html" class="nav-list-link">Студия</a>
+                    <nav class="nav flexbox">
+                            <ul class="nav-menu list flexbox">
+                                   <li class="nav-menu__item">
+                                            <a  href="index.html" class="nav-menu__link">Студия</a>
                                     </li>
-                                    <li class="nav-list-item">
-                                            <a  href="portfolio.html" class="nav-list-link portfolio">Портфолио</a>
+                                    <li class="nav-menu__item">
+                                            <a  href="portfolio.html" class="nav-menu__link nav-menu__portfolio">Портфолио</a>
                                     </li>
-                                    <li class="nav-list-item">
-                                            <a  href="" class="nav-list-link">Контакты</a>
+                                    <li class="nav-menu__item">
+                                            <a  href="" class="nav-menu__link">Контакты</a>
                                     </li>
                             </ul>
                     </nav>
     
-                    <ul class="nav-contacts">
-                            <li class="nav-contacts-item">
-                                    <a  href="mailto:info@devstudio.com" class="nav-contacts-link">
-                                            <svg class="nav-contacts-icon envelope">
-                                                    <use href="./img/symbol-defs.svg#envelope"></use>
-                                            </svg>
-                                            info@devstudio.com
-                                    </a>
-                            </li>
-                            <li class="nav-contacts-item">
-                                    <a  href="tel:+380961111111" class="nav-contacts-link">
-                                            <svg class="nav-contacts-icon smartphone">
-                                                    <use href="./img/symbol-defs.svg#smartphone"></use>
-                                            </svg>
-                                            +38 096 111 11 11
-                                    </a>
-                            </li>
-                    </ul>
-            </div>
+                    <ul class="nav-contacts list flexbox">
+                        <li class="nav-contacts__item">
+                                <a  href="mailto:info@devstudio.com" class="nav-contacts__link flexbox">
+                                        <svg class="nav-contacts__icon nav-contacts__envelope">
+                                                <use href="./img/symbol-defs.svg#envelope"></use>
+                                        </svg>
+                                        info@devstudio.com
+                                </a>
+                        </li>
+                        <li class="nav-contacts__item">
+                                <a  href="tel:+380961111111" class="nav-contacts__link flexbox">
+                                        <svg class="nav-contacts__icon nav-contacts__smartphone">
+                                                <use href="./img/symbol-defs.svg#smartphone"></use>
+                                        </svg>
+                                        +38 096 111 11 11
+                                </a>
+                        </li>
+                </ul>
+        </div>
     </header>
         <main>
             <!--фильтры проектов-->
         <section class="projects">
             <div class="container">
                 <h2 class="progects-type-title">Выберите тип проекта</h2>
-                <ul class="progects-type-list">
+                <ul class="progects-type list">
                     <li class="progects-type-item">
                         <button type="button" class="progects-type-item-button">Все</button>
                     </li>
@@ -74,7 +74,7 @@
                 </ul>
                 
                 <h2 class="projects-title">Наши проекты</h2>
-                <ul class="projects-list">
+                <ul class="projects list">
                     <li class="projects-list-item">
                         <a class="projects-link" href="">
                             <div class="project-card">
@@ -239,7 +239,7 @@
                    </div>     
                         <div>                   
                            <b class="join-text">Присоединяйтесь</b>
-                           <ul class="social-list">
+                           <ul class="social list">
                                 <li class="social-item">
                                         <a class="social-link join-link" href="">
                                                 <svg class="social-link-icon">
