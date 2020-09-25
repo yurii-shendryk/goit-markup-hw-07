@@ -16,6 +16,36 @@
   --timing: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular.ttf");
+  font-weight: 400;
+
+}  
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Medium.ttf");
+  font-weight: 500;
+} 
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Bold.ttf");
+  font-weight: 700;
+} 
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Black.ttf");
+  font-weight: 900;
+} 
+
+@font-face {
+  font-family: "Raleway";
+  src: url("../fonts/Raleway-Bold.ttf");
+  font-weight: 700;
+} 
 
 .page {
   background-color: var(--main-color);
@@ -27,7 +57,6 @@
 .header {
   font-weight: 500;
   font-size: 14px;
-
   border-bottom: 1px solid var(--header-border-color);
 }
 
@@ -46,6 +75,7 @@
 }
 
 .logo {
+  width: 145px;
   font-family: "Raleway", sans-serif;
   font-weight: bold;
   font-size: 26px;
@@ -83,10 +113,11 @@
   align-items: center;
 }
 
-.nav-list {
+.nav-menu {
   justify-content: space-between;
 
 }
+
 .nav-menu__item {
 position: relative;
 }
@@ -403,7 +434,7 @@ padding-bottom: 94px;
   margin-bottom: 30px;
 }
 
-.team-name {
+.team__name {
   margin-top: 0;
   margin-bottom: 10px;
 

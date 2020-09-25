@@ -1,20 +1,18 @@
-"liveSassCompile.settings.formats":[
-    // This is Default.
-    {
+{
+    "liveSassCompile.settings.formats": [
+      {
         "format": "expanded",
         "extensionName": ".css",
-        "savePath": null
-    },
-    // You can add more
-    {
+        "savePath": "/css"
+      },
+      {
         "format": "compressed",
         "extensionName": ".min.css",
-        "savePath": "/dist/css"
-    },
-    // More Complex
-    {
-        "format": "compressed",
-        "extensionName": ".min.css",
-        "savePath": "~/../css/"
-    }
-]
+        "savePath": "/css"
+      }
+    ],
+    "liveSassCompile.settings.excludeList": ["**/node_modules/**", ".vscode/**"],
+    "liveSassCompile.settings.generateMap": true,
+    "liveSassCompile.settings.autoprefix": null,
+    "liveServer.settings.port": 1235
+  }
