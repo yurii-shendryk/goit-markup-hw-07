@@ -19,6 +19,7 @@
     margin-bottom: 4px;
     color: $description-header-link-color;  
     letter-spacing: 0.01em;
+    &:focus-within{$accent-color;}
   }
 
   &__input-icon {
